@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+    node-nvm:
+        build:
+            context: .
+            args:
+                NODE_VERSION: v1.12.9
+        image: node-nvm
